@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Muqueet's Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e7eff6;
+      /* Lighter background color */
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    .header {
+      background: #005a9c;
+      /* Berkeley blue */
+      color: #fff;
+      margin: 20px 0;
+      padding: 20px;
+      min-height: 70px;
+      border-bottom: #bbb 1px solid;
+      text-align: center;
+    }
+
+    .header h1 {
+      padding: 5px 0;
+    }
+
+    .timeline {
+      position: relative;
+      margin: 20px 0;
+      padding: 20px;
+      background: #fff;
+      border-left: 4px solid #005a9c;
+      /* Berkeley blue */
+    }
+
+    .timeline h2 {
+      font-size: 1.5em;
+      margin-left: 40px;
+      /* Provide spacing for the vertical line */
+    }
+
+    .timeline p {
+      margin: 0;
+      margin-left: 40px;
+      /* Provide spacing for the vertical line */
+      display: flex;
+      align-items: center;
+    }
+
+    .timeline img {
+      width: 100px;
+      margin-right: 10px;
+    }
+
+    .timeline-entry {
+      padding-bottom: 20px;
+    }
+
+    .timeline-entry:not(:last-child) {
+      border-bottom: 2px dashed #bbb;
+    }
+
+    .watch {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .watch img {
+      width: 500px;
+      /* Increase size for visibility */
+      height: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Muqueet Mohsen Chowdhury</h1>
+      <p>Data Science graduate from UC Berkeley pursuing a Masters in CS at UNSW</p>
+    </div>
+    <div class="watch">
+      <img src="apple_watch.png" alt="Watch Face">
+    </div>
+    <div class="timeline">
+      <div class="timeline-entry">
+        <h2>2003</h2>
+        <p><img src="kindergarten_logo.png" alt="Kindergarten">Started school</p>
+      </div>
+      <div class="timeline-entry">
+        <h2>2019</h2>
+        <p><img src="berkeley_logo.png" alt="Berkeley">Graduated school and went to UC Berkeley</p>
+      </div>
+      <div class="timeline-entry">
+        <h2>2023</h2>
+        <p><img src="graduation_cap.png" alt="Graduation">Graduated from UC Berkeley</p>
+      </div>
+      <div class="timeline-entry">
+        <h2>2024</h2>
+        <p><img src="unsw_logo.png" alt="UNSW">Starting Masters in CS at UNSW</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
